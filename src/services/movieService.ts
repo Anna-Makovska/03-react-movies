@@ -1,5 +1,5 @@
 import axios from "axios";
-import type { Movies } from "../types/movies";
+import type { Movies } from "../types/movie";
 
 interface moviesHttpResponse {
     results: Movies[];

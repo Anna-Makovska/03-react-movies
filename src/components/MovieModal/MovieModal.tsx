@@ -1,11 +1,11 @@
 import { createPortal } from 'react-dom';
 import css from './MovieModal.module.css';
-import type { Movies } from '../../types/movie';
+import type { Movie } from '../../types/movie';
 import { useEffect } from 'react';
 
 interface MovieModalProps { 
     onClose: () => void;
-    movie: Movies;
+    movie: Movie;
 }
 
 export default function MovieModal({ onClose, movie }: MovieModalProps) {
